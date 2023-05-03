@@ -1,13 +1,13 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
-
 function Home() {
-  const { name, tagline, img } = personalDetails;
+  const { name, tagline, img, cv } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
   const h13 = useRef();
   const myimageref = useRef();
+  const mycv = useRef();
   useEffect(() => {
     const tl = gsap.timeline();
     tl.from(
@@ -46,7 +46,18 @@ function Home() {
       .from(
         myimageref.current,
         {
-          x: "200%",
+          x: "100%",
+          delay: 0.5,
+          opacity: 0,
+          duration: 2,
+          ease: "Power3.easeOut",
+        },
+        "<"
+      )
+      .from(
+        mycv.current,
+        {
+          x: "100%",
           delay: 0.5,
           opacity: 0,
           duration: 2,
@@ -79,7 +90,20 @@ function Home() {
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+        <a href={cv} download="Pavitar Singh CV.pdf">
+          <img
+            ref={myimageref}
+            className="w-1/2 md:ml-auto"
+            src={img}
+            alt="Pavitar Singh"
+            title="Click! to download CV"
+            style={{
+              border: "1px solid white",
+              borderRadius: "100%",
+              padding: "10px",
+            }}
+          />
+        </a>
       </div>
     </main>
   );
