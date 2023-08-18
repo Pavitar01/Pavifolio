@@ -54,7 +54,23 @@ export const socialMediaUrl = {
 };
 
 // Enter your Work Experience here
+export const experienceDetails = [
+  {
+    Position: "Full stack web developer",
+    Company: `Zenmonk`,
+    Location: "Onsite",
+    Type: "Full Time",
+    Duration: "June 2023 - now",
+  },
+];
 export const workDetails = [
+  {
+    Position: "MERN stack development",
+    Company: `Zenmonk`,
+    Location: "Onsite",
+    Type: "Training",
+    Duration: "June 2023 - Aug 2023 ",
+  },
   {
     Position: "Web development Using ReactJs",
     Company: `CodingSpoon`,
@@ -98,6 +114,7 @@ export const eduDetails = [
 
 // Tech Stack and Tools
 export const techStackDetails = {
+  typescript:"https://th.bing.com/th/id/OIP.maKe3jXsLd8flovNsX2_3QAAAA?pid=ImgDet&rs=1",
   html: html,
   css: css,
   node: node,

@@ -46,6 +46,12 @@ function Technologies() {
         <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={postgreSQL} title="postgreSQL" alt="" />
         <img src={MongoDB} title="MongoDB" alt="" />
+        <img src="https://th.bing.com/th/id/OIP.maKe3jXsLd8flovNsX2_3QAAAA?pid=ImgDet&rs=1" title="typescript" alt=""/>
+        <img src="https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg" title="Nest js" alt=""/>
+        <img src="https://zos.alipayobjects.com/rmsportal/wIjMDnsrDoPPcIV.png" title="antd" alt=""/>
+        <img src="https://amalgjose.files.wordpress.com/2020/08/redis-white-1.png?w=512" title="redis" alt=""/>
+        <img src="https://i1.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2016/11/rabbitmq.jpg?resize=840%2C416" title="RabbitMQ" alt=""/>
+
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -57,6 +63,7 @@ function Technologies() {
         <img src={git} title="Git" alt="Git" />
         <img src={github} title="Github" alt="Github" />
         <img src={Netlify} title="Netlify" alt="Netlify" />
+        <img src="https://avatars.slack-edge.com/2022-05-10/3504409679109_09edd9580fda38ed7976_512.png" title="gitlab" alt="gitlab" />
         <img
           src="https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
           title="Firebase"
